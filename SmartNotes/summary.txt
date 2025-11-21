@@ -1,0 +1,9 @@
+Object-Oriented Programming (OOP) in Java is a programming paradigm based on classes and objects that promotes code reusability and modularity.
+
+Inheritance allows one class to acquire the properties and behaviors of another class.
+
+Polymorphism enables a single interface to represent different data types or methods.
+
+Encapsulation is the technique of wrapping data and methods together while restricting direct access to data.
+
+Abstraction hides complex implementation details and shows only the essential features.

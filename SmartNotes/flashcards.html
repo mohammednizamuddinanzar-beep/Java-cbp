@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<style>
+body {font-family: Arial; text-align: center; background: #f5f5f5;}
+.card {width:300px; height:200px; margin:20px auto; perspective:1000px;}
+.inner {position:relative; width:100%; height:100%; transition:transform 0.6s; transform-style:preserve-3d;}
+.card:hover .inner {transform:rotateY(180deg);}
+.front, .back {position:absolute; width:100%; height:100%; backface-visibility:hidden;
+               display:flex; align-items:center; justify-content:center; border-radius:12px; font-size:16px;}
+.front {background:#4CAF50; color:white;}
+.back {background:white; color:black; transform:rotateY(180deg); border:1px solid #ccc;}
+</style>
+</head><body><h2>Flashcards</h2>
+<div class='card'><div class='inner'><div class='front'>Q1: What does this mean - "Object-Oriented Programming (OOP) in"?</div><div class='back'>Object-Oriented Programming (OOP) in Java is a programming paradigm based on classes and objects that promotes code reusability and modularity.</div></div></div><div class='card'><div class='inner'><div class='front'>Q2: What does this mean - "Inheritance allows one class"?</div><div class='back'>Inheritance allows one class to acquire the properties and behaviors of another class.</div></div></div><div class='card'><div class='inner'><div class='front'>Q3: What does this mean - "Polymorphism enables a single"?</div><div class='back'>Polymorphism enables a single interface to represent different data types or methods.</div></div></div><div class='card'><div class='inner'><div class='front'>Q4: What does this mean - "Encapsulation is the technique"?</div><div class='back'>Encapsulation is the technique of wrapping data and methods together while restricting direct access to data.</div></div></div><div class='card'><div class='inner'><div class='front'>Q5: What does this mean - "Abstraction hides complex implementation"?</div><div class='back'>Abstraction hides complex implementation details and shows only the essential features.</div></div></div><div class='card'><div class='inner'><div class='front'>Q6: What does this mean - "Interfaces in Java define"?</div><div class='back'>Interfaces in Java define abstract methods that classes can implement.</div></div></div><div class='card'><div class='inner'><div class='front'>Q7: What does this mean - "Packages help organize related"?</div><div class='back'>Packages help organize related classes and interfaces into namespaces.</div></div></div><div class='card'><div class='inner'><div class='front'>Q8: What does this mean - "Exception Handling manages runtime"?</div><div class='back'>Exception Handling manages runtime errors using try, catch, and finally blocks.</div></div></div><div class='card'><div class='inner'><div class='front'>Q9: What does this mean - "Multithreading allows concurrent execution"?</div><div class='back'>Multithreading allows concurrent execution of multiple threads for better performance.</div></div></div><div class='card'><div class='inner'><div class='front'>Q10: What does this mean - "Collections Framework provides data"?</div><div class='back'>Collections Framework provides data structures like List, Set, and Map for storing and managing groups of objects.</div></div></div></body></html>
